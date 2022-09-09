@@ -1,0 +1,27 @@
+.item {
+  border-bottom: 1px solid  var(--color-border);
+  margin-bottom: 12px;
+  padding: 8px 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+.item:hover {
+  background-color: var(--color-bg);
+  cursor: pointer;
+}
+
+.item__title,
+.item__time {
+  font-weight: 600;
+}
+
+.item__time {
+  color: var(--color-gray);
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.item__description {
+  font-size: 14px;
+  color: var(--color-light);
+}

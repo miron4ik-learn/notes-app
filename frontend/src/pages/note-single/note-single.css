@@ -1,0 +1,49 @@
+.note__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--color-main);
+  padding: 10px;
+}
+
+.note__title {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.note__title svg {
+  fill: var(--color-main);
+  width: 20px;
+  margin-right: 8px;
+}
+
+.note__btn {
+  border: none;
+  outline: none;
+  font-weight: 600;
+  background-color: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.note__textarea {
+  background-color: var(--color-white);
+  border: none;
+  padding: 16px 12px;
+  width: 100%;
+  height: 70vh;
+  resize: none;
+  scrollbar-width: none; /* Firefox */
+}
+
+.note__textarea:active,
+.note__textarea:focus {
+  outline: none;
+  border: none;
+}
+
+.note__textarea::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,26 @@
+.notes__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+}
+
+.notes__title,
+.notes__count {
+  color: var(--color-main);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.notes__count {
+  font-size: 18px;
+  color: var(--color-gray);
+}
+
+.notes__list {
+  padding: 0;
+  margin: 16px 0;
+  height: 70vh;
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox */
+}
